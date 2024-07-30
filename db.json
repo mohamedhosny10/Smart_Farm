@@ -1,0 +1,12 @@
+{
+  "sensor": [
+    {
+      "sensorId": 1,
+      "readings": {
+        "id": 1,
+        "title": "aaaa",
+        "author": "bbbbb"
+      }
+    }
+  ]
+}

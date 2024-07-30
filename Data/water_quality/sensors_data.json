@@ -1,0 +1,126 @@
+{
+    "sensor_x_readings": [
+        {
+            "id": 1,
+            "Data": {
+                "ph": 8,
+                "Hardness": 214,
+                "Solids": 22018,
+                "Chloramines": 8,
+                "Sulfate": 356,
+                "Conductivity": 363,
+                "Organic_carbon": 18,
+                "Trihalomethanes": 100,
+                "Turbidity": 4
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023",
+            "totalWarnings" : 2,
+            "totalDangers" : 0,
+            "totalNormals" : 7,
+            "longituide": "-95.080447",
+            "latitude": "29.753312"
+        },
+        {
+            "id": 2,
+            "Data": {
+                "ph": 7,
+                "Hardness": 209,
+                "Solids": 15196,
+                "Chloramines": 5,
+                "Sulfate": 338,
+                "Conductivity": 342,
+                "Organic_carbon": 7,
+                "Trihalomethanes": 71,
+                "Turbidity": 5
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023",
+            "totalWarnings" : 3,
+            "totalDangers" : 1,
+            "totalNormals" : 5,  
+            "longituide": "-95.080037",
+            "latitude": "29.753512"
+        },
+        {
+            "id": 3,
+            "Data": {
+                "ph": 4,
+                "Hardness": 249,
+                "Solids": 20834,
+                "Chloramines": 5,
+                "Sulfate": 378,
+                "Conductivity": 411,
+                "Organic_carbon": 17,
+                "Trihalomethanes": 78,
+                "Turbidity": 3
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023",
+            "totalWarnings" : 4,
+            "totalDangers" : 0,
+            "totalNormals" : 5,
+            "longituide": "-95.08117",
+            "latitude": "29.753212"
+        },
+        {
+            "id": 4,
+            "Data": {
+                "ph": 5,
+                "Hardness": 280,
+                "Solids": 35344,
+                "Chloramines": 13,
+                "Sulfate": 180,
+                "Conductivity": 392,
+                "Organic_carbon": 10,
+                "Trihalomethanes": 55,
+                "Turbidity": 4
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023",
+            "totalWarnings" : 4,
+            "totalDangers" : 2,
+            "totalNormals" : 3,
+            "longituide": "-95.08184",
+            "latitude": "29.753202"
+        },
+        {
+            "id": 5,
+            "Data": {
+                "ph": 7,
+                "Hardness": 169,
+                "Solids": 29846,
+                "Chloramines": 5,
+                "Sulfate": 350,
+                "Conductivity": 353,
+                "Organic_carbon": 18,
+                "Trihalomethanes": 30,
+                "Turbidity": 3
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023",
+            "totalWarnings" : 5,
+            "totalDangers" : 0,
+            "totalNormals" : 4,
+            "longituide": "-95.080447",
+            "latitude": "29.753352"
+        }
+    ],
+    "Average_Values": [
+        {
+            "Data": {
+                "ph": 6,
+                "Hardness": 224,
+                "Solids": 24648,
+                "Chloramines": 7,
+                "Sulfate": 320,
+                "Conductivity": 372,
+                "Organic_carbon": 14,
+                "Trihalomethanes": 67,
+                "Turbidity": 4
+            },
+            "Time": "03:15",
+            "Date": "10:05:2023"
+        }
+    ]
+}

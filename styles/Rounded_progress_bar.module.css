@@ -1,0 +1,106 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+
+    align-items: center;
+
+}
+.container .card .percent{
+        background-color: #fff;
+    position: relative;
+}
+.container .card .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+    background-color: #fff;
+
+}
+.outer_circle{
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-width: 6;
+    background-color: #fff;
+    stroke-dashoffset: var(--num);
+    opacity: 0;
+    animation: anim 1s linear forwards ;
+    animation-delay: 0.5s;
+    transform: translate(3px , 3px);
+
+}
+@keyframes anim {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.number{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: anim 1s linear forwards ;
+    animation-delay: 1s;
+}
+.number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.number h2 span{
+    color: #fff;
+    font-size: 0.5em;
+    font-weight: 300;
+}
+.number p{
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.dot{
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    animation: animdot 2s linear forwards;
+}
+
+@keyframes animdot{
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+}
+.dot::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+}
